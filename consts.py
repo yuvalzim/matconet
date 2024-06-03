@@ -3,7 +3,7 @@ MASK_BYTE_ON = "255"
 MAC_LENGTH = 6
 PORT_DST = 8889
 ARP_DLL_PATH = r"D:\ARP_send.dll"
-PROCESS_CHECK_PATH = r"D:\Processs_dll.dll"
+PROCESS_CHECK_PATH = r"D:\Process_dll.dll"
 BUFFER_SIZE = 1024
 
 # Database constants

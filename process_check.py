@@ -28,7 +28,7 @@ def get_proc_dict():
         p_count = list_proc[0].countP
         for i in range(p_count):
             if res[i].name:
-                proc_dict[res[i].name.decode()] = res[i].id
+                proc_dict[res[i].name.decode()] = str(res[i].id)
     except BaseException as e:
         print(e)
     return proc_dict
